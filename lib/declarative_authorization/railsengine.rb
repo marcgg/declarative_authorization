@@ -1,6 +1,7 @@
 require 'rails'
 
 module Authorization
-  class RailsEngine < Rails::Engine
+  # See: https://github.com/stffn/declarative_authorization/issues/111
+  class RailsEngine# < Rails::Engine
   end
 end
